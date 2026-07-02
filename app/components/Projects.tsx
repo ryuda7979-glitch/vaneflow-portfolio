@@ -15,10 +15,14 @@ export default function Projects() {
           {/* Card 1: Dream Visualizer */}
           <div className="group bg-slate-900 border border-slate-800 rounded-xl p-8 hover:border-cyan-500/50 transition-all duration-300 shadow-lg hover:shadow-cyan-900/20 flex flex-col h-full">
             <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">Dream Visualizer</h3>
-            <p className="text-slate-400 mb-6 flex-grow">
-              An AI-powered web app visualizing the 'Dream Generation' concept. Built entirely from scratch without templates.
+            <p className="text-slate-400 mb-6">
+              "Make Your Dream Tonight" — An AI-powered web app visualizing the 'Dream Generation' concept to bring "Your Visions Under Your Pillow". Built entirely from scratch without templates.
             </p>
             <ul className="space-y-3 mb-8 text-slate-300 text-sm">
+              <li className="flex items-start">
+                <span className="text-cyan-500 mr-2">▹</span>
+                <span className="font-semibold text-white">Traction:</span>&nbsp;Orchestrated a 20-person Closed Beta Testing (CBT) phase on the Google Play Store, actively managing user feedback loops for iterative UI/UX improvements.
+              </li>
               <li className="flex items-start">
                 <span className="text-cyan-500 mr-2">▹</span>
                 Engineered a robust Next.js/React architecture with Supabase for state & DB management.
