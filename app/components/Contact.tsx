@@ -23,11 +23,14 @@ export default function Contact() {
             Say Hello
           </a>
           <div className="flex gap-4">
-            {/* 
-            <button className="px-6 py-4 rounded-lg border border-slate-600 text-slate-300 hover:text-cyan-400 hover:border-cyan-400 transition-colors font-semibold">
+            <a 
+              href="https://www.linkedin.com/in/joon-won-woo-65564441b" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-block text-center px-6 py-4 rounded-lg border border-slate-600 text-slate-300 hover:text-cyan-400 hover:border-cyan-400 transition-colors font-semibold"
+            >
               LinkedIn
-            </button> 
-            */}
+            </a>
             <a 
               href="https://github.com/ryuda7979-glitch" 
               target="_blank" 
