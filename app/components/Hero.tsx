@@ -4,7 +4,7 @@ import React from 'react';
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center bg-slate-950 px-6 py-20 overflow-hidden">
-      {/* Background subtle glow effect for Vibe Coder aesthetic */}
+      {/* Background subtle glow effect */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-900/20 rounded-full blur-3xl"></div>
       </div>
@@ -14,12 +14,12 @@ export default function Hero() {
         {/* Left Column: Text Content */}
         <div className="flex flex-col items-start space-y-6">
           <p className="text-cyan-400 font-semibold tracking-wider uppercase text-sm">
-            Translating Logistics into Code
+            20 Years of Operations. Translated into Code.
           </p>
           
           <div className="space-y-2">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-              Senior Frontend Developer,
+              Frontend Engineer,
             </h1>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 pb-2">
               vaneflow (Joon Won Woo)
@@ -27,7 +27,7 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-300 text-lg leading-relaxed max-w-lg">
-            With 10 years of grocery operations experience handling 80% of store revenue, I build complex B2B logistics dashboards that actual users need. I am a Vibe Coder who transforms real-world logistics bottlenecks into robust Next.js/React solutions.
+            I spent 20 years running real-world operations—managing 70% of a major store's revenue, untangling inventory bottlenecks, and negotiating with vendors. Now, as an AI-assisted Vibe Coder based in La Mirada, CA, I architect the B2B logistics and inventory dashboards I once desperately needed on the floor.
           </p>
 
           {/* Call-to-Action Buttons */}
