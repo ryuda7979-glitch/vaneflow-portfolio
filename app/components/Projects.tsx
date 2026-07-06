@@ -36,14 +36,12 @@ export default function Projects() {
                 Integrated RevenueCat for seamless in-app subscription logic.
               </li>
             </ul>
-            <div className="flex flex-wrap gap-2 mb-8">
+            {/* Tech tags anchored to the card bottom to keep both cards visually aligned */}
+            <div className="flex flex-wrap gap-2 mt-auto">
               {['Next.js', 'TypeScript', 'Supabase', 'Tailwind'].map(tag => (
                 <span key={tag} className="px-3 py-1 bg-slate-800 text-cyan-300 text-xs rounded-full">{tag}</span>
               ))}
             </div>
-            <button className="w-full py-3 rounded-lg border border-slate-600 text-slate-300 hover:text-cyan-400 hover:border-cyan-400 transition-colors duration-200 mt-auto">
-              Live Demo
-            </button>
           </div>
 
           {/* Card 2: Chik-Tok */}
@@ -62,14 +60,12 @@ export default function Projects() {
                 Translated physical UX bottlenecks into actionable design solutions, showcasing strong product mindset.
               </li>
             </ul>
-            <div className="flex flex-wrap gap-2 mb-8">
+            {/* Tech tags anchored to the card bottom to keep both cards visually aligned */}
+            <div className="flex flex-wrap gap-2 mt-auto">
               {['UX Research', 'Product Planning', 'Problem Solving'].map(tag => (
                 <span key={tag} className="px-3 py-1 bg-slate-800 text-cyan-300 text-xs rounded-full">{tag}</span>
               ))}
             </div>
-            <button className="w-full py-3 rounded-lg border border-slate-600 text-slate-300 hover:text-cyan-400 hover:border-cyan-400 transition-colors duration-200 mt-auto">
-              View Project
-            </button>
           </div>
 
         </div>
